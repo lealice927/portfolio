@@ -208,6 +208,9 @@ img{
 	left: 0px;
 	top: -3px;
 	z-index: 1;
+	color: white;
+    font-size: x-large;
+    font-weight: bold;
 }
 .edrea_tm_navigation_wrap .nav_list_wrap{
 	width: 100%;
