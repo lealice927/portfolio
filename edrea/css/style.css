@@ -1982,24 +1982,37 @@ img {}
 }
 
 .project-media {
-    min-height: 300px;
-    max-width: 500px;
-    background-size: cover;
+	min-height: 300px;
+	max-width: 500px;
+	background-size: cover;
 }
 
 .youTubeLink {
-    display: block;
-    margin: 0 auto;
+	display: block;
+	margin: 0 auto;
 }
 
 .project-info-list li {
-    position: relative;
-    padding: 15px 0;
-    margin: 0 0 4px 0;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    color: #444;
-    font-weight: 600;
-    font-size: 13px;
+	position: relative;
+	padding: 15px 0;
+	margin: 0 0 4px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	color: #444;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.text-uppercase {
+	text-transform: uppercase !important;
+}
+
+li {
+	list-style: none;
+}
+
+.project-info {
+	font-size: smaller;
+	font-weight: lighter;
 }
 
 /*---------------------------------------------------*/
