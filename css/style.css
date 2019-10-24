@@ -1633,6 +1633,7 @@ img {}
 	padding-top: 10px;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker,
 .edrea_tm_services_wrap ul li .inner {
 	width: 100%;
 	height: auto;
@@ -1641,6 +1642,8 @@ img {}
 	position: relative;
 	border: 15px solid #041230;
 	padding: 70px 45px 53px 45px;
+	background-image: url(..//img/runtracker.png);
+	background-size: contain;
 
 	-webkit-box-sizing: border-box;
 	/* Safari/Chrome, other WebKit */
@@ -1650,6 +1653,7 @@ img {}
 	/* Opera/IE 8+ */
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .overlay,
 .edrea_tm_services_wrap ul li .inner .overlay {
 	position: absolute;
 	left: 0px;
@@ -1666,6 +1670,7 @@ img {}
 	transition: all .3s ease;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .texts_wrap,
 .edrea_tm_services_wrap ul li .inner .texts_wrap {
 	position: relative;
 	z-index: 5;
@@ -1675,6 +1680,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker h3,
 .edrea_tm_services_wrap ul li .inner h3 {
 	font-family: "Montserrat";
 	font-size: 22px;
@@ -1692,10 +1698,12 @@ img {}
 	transition: all .3s 0s ease;
 }
 
+.edrea_tm_services_wrap ul li:hover .inner-runtracker h3,
 .edrea_tm_services_wrap ul li:hover .inner h3 {
 	color: #eee;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker p,
 .edrea_tm_services_wrap ul li .inner p {
 	line-height: 24px;
 	color: #666;
@@ -1708,10 +1716,12 @@ img {}
 	transition: all .3s 0s ease;
 }
 
+.edrea_tm_services_wrap ul li:hover .inner-runtracker p,
 .edrea_tm_services_wrap ul li:hover .inner p {
 	color: #ccc;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .arrow,
 .edrea_tm_services_wrap ul li .inner .arrow {
 	position: absolute;
 	display: block;
@@ -1739,6 +1749,7 @@ img {}
 	color: #ccc;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .shape,
 .edrea_tm_services_wrap ul li .inner .shape {
 	display: block;
 	width: 80px;
@@ -1750,6 +1761,7 @@ img {}
 	z-index: 3;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .shape span:before,
 .edrea_tm_services_wrap ul li .inner .shape span:before {
 	border-top: 10px solid #BD0A0D;
 	border-right: 80px solid transparent;
@@ -1759,6 +1771,7 @@ img {}
 	left: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .shape:before,
 .edrea_tm_services_wrap ul li .inner .shape:before {
 	border-top: 10px solid transparent;
 	border-left: 5px solid #BD0A0D;
@@ -1768,6 +1781,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .shape:after,
 .edrea_tm_services_wrap ul li .inner .shape:after {
 	border-top: 10px solid transparent;
 	border-right: 5px solid #BD0A0D;
@@ -1777,6 +1791,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .shape .svg,
 .edrea_tm_services_wrap ul li .inner .shape .svg {
 	top: 20px;
 	left: 25px;
@@ -1786,6 +1801,7 @@ img {}
 	color: #fff;
 }
 
+.edrea_tm_services_wrap ul li .inner-runtracker .link_service,
 .edrea_tm_services_wrap ul li .inner .link_service {
 	position: absolute;
 	top: -15px;
@@ -1983,11 +1999,12 @@ img {}
 
 .project-media {
 	min-height: 300px;
-	max-width: 500px;
+	max-width: 600px;
 	background-size: cover;
 }
 
-.youTubeLink {
+.youTubeLink,
+.trendy {
 	display: block;
 	margin: 0 auto;
 }
