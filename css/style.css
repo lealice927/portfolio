@@ -1633,8 +1633,7 @@ img {}
 	padding-top: 10px;
 }
 
-.edrea_tm_services_wrap ul li .inner-runtracker,
-.edrea_tm_services_wrap ul li .inner {
+.edrea_tm_services_wrap ul li .inner-runtracker {
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1643,6 +1642,45 @@ img {}
 	border: 15px solid #041230;
 	padding: 70px 45px 53px 45px;
 	background-image: url(..//img/runtracker.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+
+.edrea_tm_services_wrap ul li .inner-trendy {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 15px solid #041230;
+	padding: 70px 45px 53px 45px;
+	background-image: url(..//img/trendy.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
+	/* Opera/IE 8+ */
+}
+
+.edrea_tm_services_wrap ul li .inner {
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 15px solid #041230;
+	padding: 70px 45px 53px 45px;
 	background-size: contain;
 
 	-webkit-box-sizing: border-box;
@@ -1653,6 +1691,7 @@ img {}
 	/* Opera/IE 8+ */
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .overlay,
 .edrea_tm_services_wrap ul li .inner-runtracker .overlay,
 .edrea_tm_services_wrap ul li .inner .overlay {
 	position: absolute;
@@ -1670,6 +1709,7 @@ img {}
 	transition: all .3s ease;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .texts_wrap,
 .edrea_tm_services_wrap ul li .inner-runtracker .texts_wrap,
 .edrea_tm_services_wrap ul li .inner .texts_wrap {
 	position: relative;
@@ -1680,6 +1720,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy h3,
 .edrea_tm_services_wrap ul li .inner-runtracker h3,
 .edrea_tm_services_wrap ul li .inner h3 {
 	font-family: "Montserrat";
@@ -1698,11 +1739,13 @@ img {}
 	transition: all .3s 0s ease;
 }
 
+.edrea_tm_services_wrap ul li:hover .inner-trendy h3,
 .edrea_tm_services_wrap ul li:hover .inner-runtracker h3,
 .edrea_tm_services_wrap ul li:hover .inner h3 {
 	color: #eee;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy p,
 .edrea_tm_services_wrap ul li .inner-runtracker p,
 .edrea_tm_services_wrap ul li .inner p {
 	line-height: 24px;
@@ -1716,11 +1759,13 @@ img {}
 	transition: all .3s 0s ease;
 }
 
+.edrea_tm_services_wrap ul li:hover .inner-trendy p,
 .edrea_tm_services_wrap ul li:hover .inner-runtracker p,
 .edrea_tm_services_wrap ul li:hover .inner p {
 	color: #ccc;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .arrow,
 .edrea_tm_services_wrap ul li .inner-runtracker .arrow,
 .edrea_tm_services_wrap ul li .inner .arrow {
 	position: absolute;
@@ -1749,6 +1794,7 @@ img {}
 	color: #ccc;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .shape,
 .edrea_tm_services_wrap ul li .inner-runtracker .shape,
 .edrea_tm_services_wrap ul li .inner .shape {
 	display: block;
@@ -1761,6 +1807,7 @@ img {}
 	z-index: 3;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .shape span:before,
 .edrea_tm_services_wrap ul li .inner-runtracker .shape span:before,
 .edrea_tm_services_wrap ul li .inner .shape span:before {
 	border-top: 10px solid #BD0A0D;
@@ -1771,6 +1818,7 @@ img {}
 	left: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .shape:before,
 .edrea_tm_services_wrap ul li .inner-runtracker .shape:before,
 .edrea_tm_services_wrap ul li .inner .shape:before {
 	border-top: 10px solid transparent;
@@ -1781,6 +1829,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .shape:after,
 .edrea_tm_services_wrap ul li .inner-runtracker .shape:after,
 .edrea_tm_services_wrap ul li .inner .shape:after {
 	border-top: 10px solid transparent;
@@ -1791,6 +1840,7 @@ img {}
 	top: 0px;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .shape .svg,
 .edrea_tm_services_wrap ul li .inner-runtracker .shape .svg,
 .edrea_tm_services_wrap ul li .inner .shape .svg {
 	top: 20px;
@@ -1801,6 +1851,7 @@ img {}
 	color: #fff;
 }
 
+.edrea_tm_services_wrap ul li .inner-trendy .link_service,
 .edrea_tm_services_wrap ul li .inner-runtracker .link_service,
 .edrea_tm_services_wrap ul li .inner .link_service {
 	position: absolute;
