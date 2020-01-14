@@ -2123,6 +2123,7 @@ li {
 .row {
 	padding: 25px;
 	display: inline-flex;
+	text-align: center;
 }
 
 .skills-container>.skill-icon {
