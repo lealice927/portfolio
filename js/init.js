@@ -572,7 +572,7 @@ function edrea_tm_animate_text(){
 	var animateSpan			= jQuery('.edrea_tm_animation_text_word');
 	
 		animateSpan.typed({
-			strings: ["Software Developer", "Junior Developer", "Full-Stack Experience"],
+			strings: ["Software Developer", "Web Developer", "Full-Stack Experience"],
 			loop: true,
 			startDelay: 1e3,
 			backDelay: 2e3
