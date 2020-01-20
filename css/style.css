@@ -1693,6 +1693,13 @@ img {}
 	/* Opera/IE 8+ */
 }
 
+.sharkhuntimage {
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+  	width: 45%;
+}
+
 .edrea_tm_services_wrap ul li .inner {
 	width: 100%;
 	height: auto;
@@ -2727,11 +2734,10 @@ li {
 }
 
 .edrea_tm_contact_wrap_all .leftbox {
-	/* width: 40%; */
+	width: 40%;
 	height: auto;
-	/* float: left; */
+	float: left;
 	padding-right: 40px;
-	text-align: center;
 
 	-webkit-box-sizing: border-box;
 	/* Safari/Chrome, other WebKit */
@@ -2994,7 +3000,7 @@ li {
 	height: auto;
 	clear: both;
 	float: left;
-	text-align: center;
+	text-align: left;
 	background-color: #041230;
 	padding: 50px 0px;
 
