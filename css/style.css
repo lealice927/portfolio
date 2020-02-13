@@ -37,6 +37,7 @@ body {
 	letter-spacing: 0.5px;
 	word-wrap: break-word;
 	font-weight: 400;
+	overflow-y: hidden;
 }
 
 svg {
@@ -51,8 +52,6 @@ img.svg {
 	height: 15px;
 }
 
-img {}
-
 .edrea_tm_wrapper_all,
 .edrea_tm_section,
 .edrea_tm_content {
@@ -60,6 +59,8 @@ img {}
 	height: auto;
 	clear: both;
 	float: left;
+	overflow-x: hidden;
+
 
 	-webkit-box-sizing: border-box;
 	/* Safari/Chrome, other WebKit */
@@ -1914,9 +1915,9 @@ img {}
 	position: fixed;
 	background-color: rgba(255, 255, 255, 1);
 	z-index: 9999999;
-
 	opacity: 0;
 	visibility: hidden;
+	overflow-x: hidden;
 
 	-webkit-transition: all .2s ease;
 	-moz-transition: all .2s ease;
