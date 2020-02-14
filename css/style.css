@@ -37,6 +37,7 @@ body {
 	letter-spacing: 0.5px;
 	word-wrap: break-word;
 	font-weight: 400;
+	overflow-x: hidden;
 }
 
 svg {
@@ -58,7 +59,7 @@ img.svg {
 	height: auto;
 	clear: both;
 	float: left;
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 
 
 	-webkit-box-sizing: border-box;
